@@ -9421,6 +9421,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: center;
 }
 .no-gutters {
   margin-right: 0;
@@ -18447,8 +18448,9 @@ ul {
   list-style: none;
 }
 #hero {
-  padding-top: 90px;
-  max-width: 1172px;
+  padding-top: 8.1rem;
+  padding-bottom: 1.1rem;
+  max-width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -18467,8 +18469,8 @@ ul {
 .asset1,
 .asset2 {
   position: absolute;
-  top: 7rem;
-  height: 350px;
+  top: 2rem;
+  height: 500px;
   left: 20rem;
 }
 .asset2 {
@@ -18503,7 +18505,7 @@ ul {
 .heading,
 .heading-2 {
   font-weight: 700;
-  line-height: 50px;
+  line-height: 5rem;
 }
 .heading-2 {
   font-size: 45px;
@@ -18564,7 +18566,8 @@ ul {
   }
 }
 .web-logo-section {
-  padding-top: 56px;
+  padding-top: 7rem;
+  padding-bottom: 2.5rem;
 }
 .web-logo {
   margin-top: auto;
@@ -18589,12 +18592,12 @@ ul {
 .grayscale {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  transition: 0.3s;
 }
 .grayscale:hover {
   -webkit-filter: none;
   filter: none;
-  transition: all 0.5s ease;
-  transform: scale(1.05);
+  transform: scale(2.5);
 }
 .company-logos {
   width: 150px;
@@ -18636,7 +18639,7 @@ ul {
 }
 .methodology {
   color: #fff;
-  padding: 96px 0;
+  padding: 3.5rem 0;
   background-color: #000921;
   background-color: var(--dark-blue);
 }
@@ -19971,8 +19974,8 @@ nav {
 }
 .NavbarItems {
   margin: 0 auto;
-  max-width: 1172px;
-  height: 80px;
+  max-width: 80%;
+  height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19985,6 +19988,10 @@ nav {
 }
 .zaio-logo {
   width: 100px;
+  transition: 0.3s;
+}
+.zaio-logo:hover {
+    transform: scale(1.15);
 }
 .navbar-icon {
   width: 30px;
@@ -19999,7 +20006,7 @@ nav {
   justify-content: center;
 }
 .nav-links {
-  font-size: 16px;
+  font-size: 1.2rem;
   color: #000;
   text-decoration: none;
 }
@@ -20007,21 +20014,27 @@ nav {
   text-decoration: none;
   border-bottom: 2px solid #16325b;
 }
-.nav-signup {
-  font-size: 16px;
-  font-weight: 700;
-  border-style: solid;
-  padding: 5px 15px;
-  border-radius: 4px;
-  border-width: 2px;
-}
-.nav-signup:hover {
-  text-decoration: none;
-  border-color: #a7a9ab;
-  color: #a7a9ab;
-  transition: 0.25s;
-}
 .nav-signin {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: .3s;
+    padding: 5px 15px;
+    border: 2px solid #16325b;
+}
+.nav-signin:hover {
+    transform: scale(1.15); 
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #7933fe;
+    border-radius: 4px;
+    padding: 5px 15px;
+    border: 2px solid #7933fe;
+}
+
+.nav-signup {
+  transition: .3s;
   font-size: 16px;
   font-weight: 700;
   color: #fff;
@@ -20031,12 +20044,15 @@ nav {
   margin-left: -0.5rem;
   border: 2px solid #16325b;
 }
-.nav-signin:hover {
-  color: #fff;
-  text-decoration: none;
-  background-color: #000921;
-  border-color: #000921;
-  transition: 0.25s;
+.nav-signup:hover {
+    transform: scale(1.15); 
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #7933fe;
+    border-radius: 4px;
+    padding: 5px 15px;
+    border: 2px solid #7933fe;
 }
 .zfb {
   color: #7933ff;
@@ -20203,6 +20219,7 @@ nav {
 .NavbarForCode_list__1FwpR {
   display: none;
 }
+
 @media screen and (min-width: 786px) {
   .NavbarForCode_list__1FwpR {
     display: block;
@@ -20541,4 +20558,8 @@ input[type="number"] {
   text-align: center;
   letter-spacing: 0.125px;
   color: #0d1e3a;
+}
+
+#why_zaio {
+    padding-bottom: 5rem;
 }
