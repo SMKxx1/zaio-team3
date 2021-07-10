@@ -19991,7 +19991,7 @@ nav {
   transition: 0.3s;
 }
 .zaio-logo:hover {
-    transform: scale(1.15);
+  transform: scale(1.15);
 }
 .navbar-icon {
   width: 30px;
@@ -20015,26 +20015,26 @@ nav {
   border-bottom: 2px solid #16325b;
 }
 .nav-signin {
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 4px;
-    transition: .3s;
-    padding: 5px 15px;
-    border: 2px solid #16325b;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: 0.3s;
+  padding: 5px 15px;
+  border: 2px solid #16325b;
 }
 .nav-signin:hover {
-    transform: scale(1.15); 
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #7933fe;
-    border-radius: 4px;
-    padding: 5px 15px;
-    border: 2px solid #7933fe;
+  transform: scale(1.15);
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #7933fe;
+  border-radius: 4px;
+  padding: 5px 15px;
+  border: 2px solid #7933fe;
 }
 
 .nav-signup {
-  transition: .3s;
+  transition: 0.3s;
   font-size: 16px;
   font-weight: 700;
   color: #fff;
@@ -20045,14 +20045,14 @@ nav {
   border: 2px solid #16325b;
 }
 .nav-signup:hover {
-    transform: scale(1.15); 
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #7933fe;
-    border-radius: 4px;
-    padding: 5px 15px;
-    border: 2px solid #7933fe;
+  transform: scale(1.15);
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #7933fe;
+  border-radius: 4px;
+  padding: 5px 15px;
+  border: 2px solid #7933fe;
 }
 .zfb {
   color: #7933ff;
@@ -20561,5 +20561,5 @@ input[type="number"] {
 }
 
 #why_zaio {
-    padding-bottom: 5rem;
+  padding-bottom: 5rem;
 }
