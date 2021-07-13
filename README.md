@@ -2,6 +2,7 @@
 
 
 ## Changes so far:
+```
   Added:
     + Spacing to the nav items
     + Reversing animation to the web icons
@@ -37,3 +38,4 @@
     x Web Development link in choose your learning path takes you to a page that doesn't load therefor the link has been changed to /allcourses
     x Centered the Python and Java logo in Learn a new technology
     x Fixed social media icons not showing up
+```
