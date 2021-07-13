@@ -18566,7 +18566,7 @@ ul {
   }
 }
 .web-logo-section {
-  padding-top: 7rem;
+  padding-top: 6rem;
   padding-bottom: 2.5rem;
 }
 .web-logo {
@@ -18604,11 +18604,13 @@ ul {
 }
 .shadow-box {
   background-color: #fff;
-  max-width: 1200px;
-  border-radius: 4px;
+  max-width: 1100px;
+  border-radius: 10px;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
   padding: 60px 40px;
   margin: 0 auto;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -18828,7 +18830,10 @@ figure.snip1192 .author h5 span {
   transition: all 0.5s ease;
 }
 .technology-box:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
+}
+.times_new {
+  font-family:'Times New Roman', Times, serif;
 }
 .career-box {
   border-bottom: solid #425aed;
@@ -18845,6 +18850,7 @@ figure.snip1192 .author h5 span {
   font-size: 1.5rem;
   font-weight: 700;
   justify-content: center;
+  font-family: "Lucida Console", "Courier New", monospace;
   margin: 16px;
   max-width: 358px;
   padding: 35px 16px 38px;
@@ -18854,7 +18860,7 @@ figure.snip1192 .author h5 span {
 }
 .career-box:hover {
   text-decoration: none;
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 .wave2 {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2560' height='150' preserveAspectRatio='none'%3E%3Cg mask='url(%26quot;%23SvgjsMask1080%26quot;)' fill='none'%3E%3Cpath d='M0 25c128 23.6 384 117.2 640 118 256 .8 384-104.8 640-114 256-9.2 384 69.2 640 68 256-1.2 512-59.2 640-74v127H0z' fill='rgba(0, 8, 33, 1)'/%3E%3C/g%3E%3Cdefs%3E%3Cmask id='SvgjsMask1080'%3E%3Cpath fill='%23fff' d='M0 0h2560v150H0z'/%3E%3C/mask%3E%3C/defs%3E%3C/svg%3E");
@@ -20562,4 +20568,11 @@ input[type="number"] {
 
 #why_zaio {
   padding-bottom: 5rem;
+}
+#LOGIN {
+  font-weight: 100;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#0062cc;
+  padding-left: 0.1rem;
 }
